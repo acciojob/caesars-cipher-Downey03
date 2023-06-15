@@ -37,7 +37,7 @@ function rot13(encodedStr) {
 	for(let i=0;i<encodedStr.length;i++){
 		let ch = encodedStr[i];
 		if(lookup(ch) == undefined) decodedArr.push(ch)
-		else decodedArr.psuh(lookup(ch))
+		else decodedArr.push(lookup(ch))
 	}
   return decodedArr; //return decodedArr
 }
